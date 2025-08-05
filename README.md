@@ -1,3 +1,7 @@
+![TaskNova Bot](https://github.com/varunaditya27/render-keepalive-bot/actions/workflows/telegram-ping.yml/badge.svg)
+![EcoDose Backend](https://github.com/varunaditya27/render-keepalive-bot/actions/workflows/ecodose-ping.yml/badge.svg)
+
+
 # ⚡ Render Keepalive Bot
 
 **Prevent your Render-hosted applications from sleeping — automatically and reliably.**
