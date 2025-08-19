@@ -1,0 +1,13 @@
+name: MindForge Backend Keep Alive 🤖
+
+on:
+  schedule:
+    - cron: "*/1 * * * *" # Every 1 minute
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl MindForge Backend endpoint
+        run: curl -s ${{ secrets.MindForge_URL }} || echo "Failed to ping MindForge Backend"
